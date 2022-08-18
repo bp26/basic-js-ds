@@ -30,13 +30,6 @@ class Stack {
   }
 }
 
-const arr = new Stack()
-
-arr.push(7)
-arr.push(9)
-
-console.log(arr)
-
 module.exports = {
   Stack
 };
