@@ -42,6 +42,7 @@ class Queue {
     if (this.head === null) {return undefined}
 
     let prev = this.head
+    this.length--
 
     if (this.length < 2) {
       prev = this.head
